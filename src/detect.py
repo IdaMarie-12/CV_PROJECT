@@ -100,7 +100,7 @@ def main() -> None:
         predictions = run_condition(model, condition, annotation_data)
         validate_predictions(predictions, annotation_data)
         write_json(output_path, predictions, indent = None)
-        print(f"{condtion}: {len(predictions)} predictions")
+        print(f"{condition}: {len(predictions)} predictions")
 
 if __name__ == "__main__":
     main()
