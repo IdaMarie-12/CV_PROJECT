@@ -1,0 +1,11 @@
+# Python 3.x.x, run on UCloud (GPU: <name>)
+torch==<version>
+ultralytics==<version>
+super-image==<version>
+huggingface_hub==<version>
+pycocotools==<version>
+scikit-image==<version>
+numpy==<version>
+pandas==<version>
+Pillow==<version>
+matplotlib==<version>
